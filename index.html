@@ -11,47 +11,43 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="CSS/styles.css">
 
+    <!-- Google Font "Francois One" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+
     <!--Javascript -->
     <script src="/JS/script.js"></script>
 
     <title>Converter</title>
 </head>
 <body>
+    <br>
+    <br>
+
     <h1 class="title text-center">Converter</h1>
 
-    <h2>Length</h2>
-    <p>
-        <label>Kilometers</label>
-        <input id="inputKilometers" type="number" placeholder="Kilometers" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
-    </p>
-      <p>Miles: <span id="outputMiles"></span></p>
+    <div class="converters-div">
+        <h2 class="sub-text text-center pb-3 pt-5">Length</h2>
+        <p>
+            <label class="med-text">Kilometers:</label>
+            <input id="inputKilometers" type="number" placeholder="Kilometers" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+        </p>
+        <p class="med-text">Miles: <span id="outputMiles"></span></p>
 
-      <h2>Weight</h2>
-      <p>Type a value in the Pounds field to convert the value to Kilograms:</p>
-  
-      <p>
-      <label>Pounds</label>
-      <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
-      </p>
-      <p>Kilograms: <span id="outputKilograms"></span></p>
+
+        <h2 class="sub-text text-center pb-3 pt-5">Weight</h2>
     
-<!-- <div class="row images-box">
-    <div>
-        <img src="/img/sign copy.png" alt="">
+        <p>
+        <label class="med-text">Pounds:</label>
+        <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+        </p>
+        <p class="med-text">Kilograms: <span id="outputKilograms"></span></p>
     </div>
-    <div>
-        <img src="/img/riding hood copy.png" alt="">
-    </div>
-    <div>
-        <img src="/img/wolf copy.png" alt="">
-    </div>
-</div> -->
+    
+<!-- Images -->
 <div class="container-fluid cont-illust text-center border-top border-dark border-bottom">
     <div class="row row-container ">
-
-      
-    
-
       <!-- Step 1 Illustration -->
       <div class="col-lg-3 col-illust img-fluid">
         <img class="illust-img" style="" src="" alt="">

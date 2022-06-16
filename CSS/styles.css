@@ -1,5 +1,6 @@
 body{
     background-color: rgb(215, 236, 250);
+    font-family: 'Francois One', sans-serif;
 }
 
 .images-box{
@@ -14,20 +15,17 @@ body{
     bottom: 23px;
 }
 
-.cont-illust {
-    
-    
 
-  }
   
   /* Step by step illustrations Images sizing */
   .illust-img {
     max-height: 210px;
     max-width: 300px;
     /* min-width: ; */
+    min-width: 200px;
+    min-height: 200px;
     display: inline block;
     border-radius: 20px;
-   
   }
 
   .sign-img{
@@ -35,6 +33,35 @@ body{
       max-width: 370px;
       display: inline-block;
       border-radius: 20px;
+  }
+
+  .col-illust{
+      min-width: 370px;
+  }
+
+/* Text and Converter stylization */
+  .title{
+     font-size: 65px;
+     
+     
+  }
+
+  .converters-div{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    z-index: 15;
+    top: 30%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+  }
+
+  .sub-text{
+      font-size: 35px;
+  }
+
+  .med-text{
+      font-size: 20px;
   }
   
 
