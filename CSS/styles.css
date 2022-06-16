@@ -1,3 +1,43 @@
+body{
+    background-color: rgb(215, 236, 250);
+}
+
+.images-box{
+    height: 30px;
+}
+
+/* Illustration step by step parent DIV */
+
+.row-container{
+    position: fixed;
+    width: 100%;
+    bottom: 23px;
+}
+
+.cont-illust {
+    
+    
+
+  }
+  
+  /* Step by step illustrations Images sizing */
+  .illust-img {
+    max-height: 210px;
+    max-width: 300px;
+    /* min-width: ; */
+    display: inline block;
+    border-radius: 20px;
+   
+  }
+
+  .sign-img{
+      max-height: 230px;
+      max-width: 370px;
+      display: inline-block;
+      border-radius: 20px;
+  }
+  
+
 /* Footer Bar J.M Start */
 .footer-bar{
     background-color: rgba(50, 109, 154, 0.923);
@@ -8,7 +48,7 @@
     justify-content: center;
     color: rgb(255, 255, 255);
     font-family: 'Chau Philomene One' , sans-serif;
-    position:absolute;
+    position:fixed;
     bottom: 0;
     clear: both;
 }
